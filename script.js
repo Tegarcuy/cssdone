@@ -176,8 +176,8 @@ else if(currentStep === 3){
         <div class="input-card animate-entrance glass-effect p-6 rounded-2xl text-white relative overflow-hidden">
           <div class="absolute inset-0 bg-gradient-to-br from-yellow-500 to-yellow-600 opacity-80"></div>
           <div class="relative z-10">
-            <div class="text-5xl mb-3">🌫️</div>
-            <p class="font-bold mb-3 text-lg">Gas (ppm)</p>
+            <div class="text-5xl mb-3">🔥</div>
+            <p class="font-bold mb-3 text-lg">Gas </p>
             <input id="gas" type="number" placeholder="contoh: 100" 
                    class="input-enhanced w-full text-center text-black font-semibold">
           </div>
@@ -226,7 +226,7 @@ else if(currentStep === 4){
         },{
           key: 'gas',
           title: 'Status GAS',
-          emoji: '🌫️',
+          emoji: '🔥',
           value: statusGas
         },{
           key: 'ph',
@@ -919,3 +919,4 @@ function closeWarningModal(){ closeModal('modalWarning'); }
 
 // INIT
 renderStep();
+
